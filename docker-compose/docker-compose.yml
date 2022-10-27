@@ -1,0 +1,15 @@
+version: '3'
+services:
+  postgres:
+    container_name: pismo-postgres
+    image: postgres:alpine
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: "pismo_dev"
+      POSTGRES_PASSWORD: "pismo_dev"
+      POSTGRES_DB: "pismo_dev"
+    volumes:
+      - pismo-postgres-volume:/var/lib/postgresql/pismo/data
+volumes:
+  pismo-postgres-volume:
