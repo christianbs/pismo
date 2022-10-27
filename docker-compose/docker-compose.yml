@@ -2,7 +2,7 @@ version: '3'
 services:
   postgres:
     container_name: pismo-postgres
-    image: postgres:alpine
+    image: postgres
     ports:
       - "5432:5432"
     environment:
