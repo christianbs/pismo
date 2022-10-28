@@ -1,4 +1,4 @@
-package br.com.pismo.configuration;
+package br.com.pismo.framework.configuration;
 
 import org.mapstruct.MapperConfig;
 import org.mapstruct.extensions.spring.SpringMapperConfig;
@@ -7,6 +7,6 @@ import org.mapstruct.extensions.spring.SpringMapperConfig;
 @SpringMapperConfig(conversionServiceAdapterPackage = MapStructConfiguration.CONVERSION_SERVICE_ADAPTER_PACKAGE)
 public interface MapStructConfiguration {
 
-    String CONVERSION_SERVICE_ADAPTER_PACKAGE = "br.com.pismo.configuration";
+    String CONVERSION_SERVICE_ADAPTER_PACKAGE = "br.com.pismo.framework.configuration";
 
 }

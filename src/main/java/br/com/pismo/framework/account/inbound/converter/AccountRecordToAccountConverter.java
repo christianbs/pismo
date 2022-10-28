@@ -1,8 +1,8 @@
 package br.com.pismo.framework.account.inbound.converter;
 
 import br.com.pismo.application.account.core.Account;
-import br.com.pismo.configuration.MapStructConfiguration;
 import br.com.pismo.framework.account.inbound.record.AccountRecord;
+import br.com.pismo.framework.configuration.MapStructConfiguration;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.springframework.core.convert.converter.Converter;
