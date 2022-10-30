@@ -13,5 +13,7 @@ public interface TransactionRecordToTransactionConverter extends Converter<Trans
     @Mapping(source = "account", target = "account")
     @Mapping(source = "operationType", target = "operationType")
     @Mapping(source = "transactionRecord.amount", target = "amount")
+    @Mapping(target = "id", ignore = true)
+    @Mapping(target = "eventDate", ignore = true)
     Transaction convert(TransactionConverterContext source);
 }
