@@ -1,0 +1,7 @@
+FROM openjdk:17
+ENV ARTIFACT_NAME=pismo-0.0.1-SNAPSHOT.jar
+ENV APP_HOME=/usr/app/
+WORKDIR $APP_HOME
+COPY build/libs/$ARTIFACT_NAME $ARTIFACT_NAME
+EXPOSE 8080
+CMD ["java","-jar","pismo-0.0.1-SNAPSHOT.jar"]
