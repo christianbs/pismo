@@ -1,4 +1,4 @@
-# Pistmo - Test
+# Pismo - Test
 
 ### Pré-requisitos:
 * [java 17](https://openjdk.org/install/)
@@ -37,3 +37,6 @@ $ gradle clean build
 $ gradle bootrun
 ```
 Pronto, o serviço já pode ser acessado através da porta 8080. Caso queira testar os endpoints através do Postman, uma coleção com os endpoints está disponível para ser importada no diretório postman/.
+
+# Arquitetura
+A arquitetura utilizada na solução é a arquitetura hexagonal. O intuito é isolar as classes de dominio a ponto de não dependerem do framework utilizado, diminuir o acoplamento e facilitar os testes unitários. Sabemos que em aplicações pequenas, essa seria uma solução exagerada, mas no contexto empresarial, sistemas de informações crescem conforme novas necessidades aparecem e sem uma arquitetura bem definida, as classes naturalmente se acoplam cada vez mais, dificultando a manutenção da aplicação e criando sistemas legados.
