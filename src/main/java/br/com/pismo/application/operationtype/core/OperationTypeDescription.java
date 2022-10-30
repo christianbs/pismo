@@ -1,4 +1,4 @@
-package br.com.pismo.framework.operationtype.outbound.entity;
+package br.com.pismo.application.operationtype.core;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -12,6 +12,6 @@ public enum OperationTypeDescription {
     COMPRA_A_VISTA("COMPRA A VISTA"),
     COMPRA_PARCELADA("COMPRA PARCELADA");
 
-    private final String description;
+    private final String value;
 
 }

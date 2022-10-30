@@ -1,5 +1,6 @@
 package br.com.pismo.framework.operationtype.outbound.entity;
 
+import br.com.pismo.application.operationtype.core.OperationTypeDescription;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -15,7 +16,7 @@ public class OperationTypeEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
-    @Enumerated
+    @Enumerated(EnumType.STRING)
     private OperationTypeDescription description;
 
 }

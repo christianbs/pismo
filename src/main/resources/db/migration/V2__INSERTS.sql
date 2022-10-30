@@ -1,8 +1,8 @@
 INSERT INTO operation_type (id, description)
-values (1, 'COMPRA A VISTA');
+values (1, 'COMPRA_A_VISTA');
 
 INSERT INTO operation_type (id, description)
-values (2, 'COMPRA PARCELADA');
+values (2, 'COMPRA_PARCELADA');
 
 INSERT INTO operation_type (id, description)
 values (3, 'SAQUE');
