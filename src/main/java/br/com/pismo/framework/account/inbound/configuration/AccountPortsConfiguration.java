@@ -1,4 +1,4 @@
-package br.com.pismo.framework.account.configuration;
+package br.com.pismo.framework.account.inbound.configuration;
 
 import br.com.pismo.application.account.core.CreateAccountUseCase;
 import br.com.pismo.application.account.core.FindAccountUseCase;

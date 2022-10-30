@@ -1,4 +1,4 @@
-package br.com.pismo.framework.operationtype.outbound;
+package br.com.pismo.framework.operationtype.outbound.adapter;
 
 import br.com.pismo.application.operationtype.core.OperationType;
 import br.com.pismo.application.operationtype.ports.out.FindOperationTypePort;

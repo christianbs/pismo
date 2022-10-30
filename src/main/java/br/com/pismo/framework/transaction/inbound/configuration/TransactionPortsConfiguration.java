@@ -1,4 +1,4 @@
-package br.com.pismo.framework.transaction.configuration;
+package br.com.pismo.framework.transaction.inbound.configuration;
 
 import br.com.pismo.application.transaction.core.CreateTransactionUseCase;
 import br.com.pismo.application.transaction.ports.in.CreateTransactionUseCasePort;

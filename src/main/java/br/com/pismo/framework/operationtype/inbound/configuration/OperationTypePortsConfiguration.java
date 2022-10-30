@@ -1,4 +1,4 @@
-package br.com.pismo.framework.operationtype.configuration;
+package br.com.pismo.framework.operationtype.inbound.configuration;
 
 import br.com.pismo.application.operationtype.core.FindOperationTypeUseCase;
 import br.com.pismo.application.operationtype.ports.in.FindOperationTypeUseCasePort;
